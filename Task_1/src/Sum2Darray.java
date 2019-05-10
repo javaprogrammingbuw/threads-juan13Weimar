@@ -3,6 +3,7 @@ public class Sum2Darray extends Thread{
 
 	public int[] row;
 	private int sum = 0;
+	
 	// Constructor
 	public Sum2Darray(int[] row) {
 		this.row = row;
