@@ -18,7 +18,7 @@ public class Employee extends Thread{
 	
 	public void run() {
 		this.origin.transfer(this.amount, this.destiny);
-		System.out.println(this.name + "has transfered " + this.amount +"$ to " + this.destiny.getIban() +" account");
+		System.out.println(this.name + " has transfered " + this.amount +"$ to " + this.destiny.getIban() +" account");
 	}
 	
 }
